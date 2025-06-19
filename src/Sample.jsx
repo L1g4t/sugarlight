@@ -54,19 +54,19 @@ const Sample = () => {
                 {activeTab === "tab1" && (
                 <div className={styles.galary}>
                     <div className={styles.galary_1}>
-                        <img src='\image\DSC00102-Edit.jpg' alt='Sample 1' />
-                        <img src='\image\DSC00323-Edit.jpg' alt='Sample 4' />
-                        <img src='\image\DSC00081-Edit.jpg' alt='Sample 7' />
+                        <img src='image/DSC00102-Edit.jpg' alt='Sample 1' />
+                        <img src='image/DSC00323-Edit.jpg' alt='Sample 4' />
+                        <img src='image/DSC00081-Edit.jpg' alt='Sample 7' />
                     </div>
                     <div className={styles.galary_2}>
-                        <img src='\image\DSC00145-Edit.jpg' alt='Sample 2' />
-                        <img src='\image\DSC09435-Edit.jpg' alt='Sample 5' />
-                        <img src='\image\1_1.jpg' alt='Sample 8' />
+                        <img src='image/DSC00145-Edit.jpg' alt='Sample 2' />
+                        <img src='image/DSC09435-Edit.jpg' alt='Sample 5' />
+                        <img src='image/1_1.jpg' alt='Sample 8' />
                     </div>
                     <div className={styles.galary_1}>
-                        <img src='\image\DSC00243-Edit.jpg' alt='Sample 3' />
-                        <img src='\image\4_5.jpg' alt='Sample 6' />
-                        <img src='\image\DSC00268-Edit.jpg' alt='Sample 9' />
+                        <img src='image/DSC00243-Edit.jpg' alt='Sample 3' />
+                        <img src='image/4_5.jpg' alt='Sample 6' />
+                        <img src='image/DSC00268-Edit.jpg' alt='Sample 9' />
                     </div>
                 </div>
                 )}

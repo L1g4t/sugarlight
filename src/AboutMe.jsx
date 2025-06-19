@@ -24,7 +24,7 @@ const AboutMe = () => {
             <div className='script_about_me'>
               <div className='tilte_about_me'>ABOUT ME</div>
               <div className='tilte_about_me_slash'></div>
-              {isSmallScreen&&<img src='\image\490222666_1178828566969203_1218203551334888705_n.jpg' alt='About Me' className="about_me_image" />} 
+              {isSmallScreen&&<img src='image/490222666_1178828566969203_1218203551334888705_n.jpg' alt='About Me' className="about_me_image" />} 
               <div className='main_about_me'>Mình là một photographer
                 kiêm videographer nghiệp dư. Với đam mê to lớn với nhiếp ảnh chân dung, 
                 concept và sự kiện, mình mong muốn được học hỏi và phát triển kỹ năng 
@@ -48,7 +48,7 @@ const AboutMe = () => {
                 </div>
               </div>
             </div>
-            {!isSmallScreen&&<img src='\image\490222666_1178828566969203_1218203551334888705_n.jpg' alt='About Me' className="about_me_image" />}        
+            {!isSmallScreen&&<img src='image/490222666_1178828566969203_1218203551334888705_n.jpg' alt='About Me' className="about_me_image" />}        
         </section>
     );
 };
