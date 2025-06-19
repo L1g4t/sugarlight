@@ -32,9 +32,9 @@ function App() {
   return (
     <>
       <header>
-        <img src='/logo/SL_Logo2(1)(1).png' alt='Logo' className="logo" />
+        <img src='logo/SL_Logo2(1)(1).png' alt='Logo' className="logo" />
         <div className="dropdown">
-          <img src='/icon/more.png' alt='Menu' className="dropbtn"/>
+          <img src='icon/more.png' alt='Menu' className="dropbtn"/>
           <div className="dropdown-content">
             <a id='AM' onClick={scrollToAbout} style={{ cursor: "pointer" }}>About Me</a>
             <a id='S' onClick={scrollToSample} style={{ cursor: "pointer" }}>Sample</a>
