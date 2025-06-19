@@ -1,0 +1,118 @@
+/* About Me */
+.About{
+  box-sizing: border-box;
+  width: 77vw;
+  padding:126.48px 0 141px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_me_image{
+  width: 33.5vw;
+  height: fit-content;
+
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.script_about_me{
+  width: 37vw;
+  display:flex;
+  flex-direction: column;
+}
+.tilte_about_me{
+  max-width: 477.57px;
+
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: normal;
+  letter-spacing: 0;
+
+  color: #F2671D;
+
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tilte_about_me_slash{
+  width:30vw;
+  height: 1px;
+  background-color: #FCF7ED;
+}
+.main_about_me{
+  width: 100%;
+  
+  padding:1rem 0 0 0;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 29px;
+
+  text-align: justify;
+
+  color: #FCF7ED;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container_support_info{
+  width: 100%;
+  padding: 8.7rem 0 0 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+.support_info{
+  max-width: 295px;
+  padding:0 0.5rem 0 0;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 29px;
+  
+  color:#FCF7ED;
+}
+.highlight{
+  font-weight: 700;
+  color: #F2671D;
+}
+ul {
+  list-style-position: inside; /* ✅ bullet nằm trong khung nội dung */
+}
+@media (max-width:600px){
+  .tilte_about_me{
+    align-self: center;
+  }
+  .tilte_about_me_slash{
+    align-self: center;
+  }
+}
+@media (max-width: 1000px) {
+  .About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .script_about_me{
+    width: 90vw;
+  }
+  .tilte_about_me_slash{
+    width: 60vw;  
+  }
+  .about_me_image{
+    width: 50vw;
+    height: fit-content;
+    margin: 2rem;
+    align-self: center;
+  }
+  .container_support_info{
+    justify-content: space-between;
+  }
+}
+@media (max-width:1590px) {
+  .container_support_info{
+    flex-direction: column;
+    padding:3rem 0 0 0;
+    gap:1rem;
+  }
+}

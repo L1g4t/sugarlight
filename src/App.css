@@ -1,0 +1,90 @@
+#root {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+main{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+/* Header styles */
+header {
+  position:fixed;
+  display: flex;
+  justify-content: space-between; /* Đẩy 2 phần tử ra 2 đầu */
+  align-items: center;
+  background-color: #FCF7ED;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+}
+.logo {
+  padding: 6px;
+  height: 48px;
+  width: 184px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 0.2em #f2681dc5);
+}
+.dropdown{
+  display:flex;
+  flex-direction: column;
+  position: relative;
+}
+.dropbtn{
+  width: 59px;
+  height: 59px;
+  padding:6px 6px 6px 6px;
+  cursor: pointer;
+  align-self: flex-end;
+  box-sizing: border-box;
+}
+/* Ẩn menu mặc định */
+.dropdown-content {
+  position: absolute; /* nổi lên, không chiếm chỗ */
+  top: 100%; /* nằm ngay bên dưới .dropbtn */
+  right: 0;  /* căn phải nếu cần */
+  display: none;
+  min-width: 300px;
+  height: 40px;
+  z-index: 1;
+}
+/* Các link */
+.dropdown-content a {
+  padding: 10px 14px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+
+  background-color: #FCF7ED;
+  color: #000000;
+}
+
+/* Hover lên mục */
+.dropdown-content a:hover {
+  background-color: #E2BDA9;
+}
+.dropdown-content a:active {
+  background-color: #F2681D;
+}
+/* Hover ảnh thì hiện menu */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.slash{
+  width:66vw;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #FCF7ED;
+}
