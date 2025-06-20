@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 import {useState,useEffect} from 'react';
 
-function useIsSmallScreen(breakpoint = 1000) {
+function useIsSmallScreen(breakpoint = 1036) {
   const [isSmall, setIsSmall] = useState(window.innerWidth < breakpoint);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ function useIsSmallScreen(breakpoint = 1000) {
 }
 
 const AboutMe = () => {
-  const isSmallScreen = useIsSmallScreen(1000);
+  const isSmallScreen = useIsSmallScreen(1036);
     return (
         <section className="About">         
             <div className='script_about_me'>

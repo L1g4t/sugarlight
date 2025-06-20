@@ -7,7 +7,19 @@ main{
   display:flex;
   flex-direction: column;
   align-items: center;
-  
+  background: url('docorative/Group 8.png') no-repeat center;
+  background-size:cover;
+  background-color: rgba(31, 31, 31, 0.4);
+  background-blend-mode: multiply;
+  /* background-v */
+}
+
+@media (max-width:600px){
+  main{
+    background: url('docorative/Group 8.png') repeat;
+    background-size:contain;
+    background-color: rgba(31, 31, 31, 0.2);
+  }
 }
 /* Header styles */
 header {

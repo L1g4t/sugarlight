@@ -4,8 +4,7 @@ import styles from './Contact.module.css';
 const Contact = () => {
     return (
         <section className={styles.contact}>
-            <div className={styles.contact_tilte}>Contact</div>
-            <div className={styles.contact_tilte_slash}></div>
+            <div className={styles.contact_tilte}>Contact Me</div>
             
             <div className={styles.contact_socialmedia}>
                 <a href="https://www.facebook.com/SugerLight">

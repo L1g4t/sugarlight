@@ -2,15 +2,16 @@
 .About{
   box-sizing: border-box;
   width: 77vw;
-  padding:126.48px 0 141px 0;
+  padding:10rem 0 8rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .about_me_image{
-  width: 33.5vw;
-  height: fit-content;
+  width: fit-content;
+  height: 60vh;
 
+  border-radius: 30%;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .script_about_me{
@@ -23,7 +24,7 @@
 
   font-family: 'Montserrat',sans-serif;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: normal;
   letter-spacing: 0;
 
@@ -44,10 +45,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 1.5em;
   line-height: 29px;
-
-  text-align: justify;
 
   color: #FCF7ED;
 
@@ -67,7 +66,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   line-height: 29px;
   
   color:#FCF7ED;
@@ -81,17 +80,21 @@ ul {
 }
 @media (max-width:600px){
   .tilte_about_me{
-    align-self: center;
+    font-size: 2.6rem;
   }
-  .tilte_about_me_slash{
-    align-self: center;
+  .main_about_me{
+    font-size: 1.3rem;
+  }
+  .support_info{
+    font-size:1.3rem;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1036px) {
   .About{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding:5rem 0 5rem 0;
   }
   .script_about_me{
     width: 90vw;
@@ -100,7 +103,7 @@ ul {
     width: 60vw;  
   }
   .about_me_image{
-    width: 50vw;
+    width: 70vw;
     height: fit-content;
     margin: 2rem;
     align-self: center;

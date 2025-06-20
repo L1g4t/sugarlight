@@ -63,11 +63,21 @@
         width: 90vw;
     }
     .contact_socialmedia{
+        padding:2rem;
         flex-direction: column;
         align-items: center;
         gap:2rem;
     }
+    
     .contact_title_slash{
         width:80%;
+    }
+}
+@media (max-width:600px){
+    .contact{
+        padding:2rem 0 2rem 0;
+    }
+    .contact_tilte{
+        font-size: 3rem;
     }
 }
