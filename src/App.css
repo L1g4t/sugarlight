@@ -16,7 +16,7 @@ main{
 
 @media (max-width:600px){
   main{
-    background: url('docorative/Group8.png') repeat;
+    background: url('/docorative/Group8.png') repeat;
     background-size:contain;
     background-color: rgba(31, 31, 31, 0.2);
   }
