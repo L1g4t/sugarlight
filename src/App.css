@@ -9,7 +9,6 @@ main{
   align-items: center;
   background: url('/docorative/Group8.png') no-repeat center;
   background-size:cover;
-  background-color: rgba(31, 31, 31, 0.4);
   background-blend-mode: multiply;
   /* background-v */
 }
@@ -18,7 +17,6 @@ main{
   main{
     background: url('/docorative/Group8.png') repeat;
     background-size:contain;
-    background-color: rgba(31, 31, 31, 0.2);
   }
 }
 /* Header styles */
