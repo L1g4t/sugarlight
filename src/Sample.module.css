@@ -12,7 +12,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 4rem;
-    line-height: 78px;
+    line-height: 65px;
 
     color: #F2671D;
 
@@ -36,7 +36,7 @@
 }
 .button_1,.button_2{
     width: 150px;
-    height:40px;
+    height:37px;
 
     display:flex;
     align-items: center;
@@ -45,7 +45,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.2em;
     line-height: 24px;
     letter-spacing: -0.05em;
 
@@ -60,7 +60,7 @@
 }
 .button_3,.button_4,.button_5{
     width: 120px;
-    height: 30px;
+    height: 27px;
 
     display:flex;
     align-items: center;
@@ -69,7 +69,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 0.9em;
     line-height: 24px;
     letter-spacing: -0.05em;
 
@@ -159,6 +159,6 @@
         gap:0.3rem;
     }
     .sample_title{
-        font-size:3rem;
+        font-size:2.3rem;
     }
 }
